@@ -1,0 +1,164 @@
+.index-header {
+	height: 100vh;
+	min-height: 550px;
+	background-image: url(images/cat.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.index-header h3 {
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 70px;
+	font-weight: 400;
+	padding: 150px 0px 0px 100px;
+}
+
+.NOSSERVICES h2 {
+	font-weight: bold;
+}
+
+.NOSSERVICES p {
+	font-size: 28px;
+}
+
+.connexion-img img {
+	width: 100%;
+}
+
+.register-show input[type="text"], .register-show input[type="password"]
+	{
+	width: 100%;
+	display: block;
+	margin: 20px 0;
+	padding: 15px;
+	border: 1px solid #b5b5b5;
+	outline: none;
+}
+
+.register-show button {
+	float: right
+}
+
+.nav-item1 {
+	width: 160px;
+}
+
+#history {
+	display: block;
+	width: 500px;
+	height: 300px;
+}
+
+#txtMessage {
+	display: inline-block;
+	width: 300px;
+}
+
+#btnSend {
+	display: inline-block;
+	width: 180px;
+}
+
+#btnClose {
+	display: block;
+	width: 500px;
+}
+.div-chat{
+	height: 400px;
+	width: 80%;
+	margin: auto;
+	background: #E6EAEA;
+}
+.div-message{
+	max-height: calc(100% - 86px);
+	min-height: calc(100% - 86px);
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.div-message ul{
+	list-style: none;
+}
+
+.div-message .message1{
+	clear: both;
+	float: left;
+	width: calc(100% - 25px);
+}
+.div-message .message1 p{
+	background: #f5f5f5;
+	color: #1871cb;
+	float: right;
+	max-width: 300px;
+	padding: 10px 15px;
+	border-radius: 20px;
+	margin: 10px 0px;
+}
+.div-message .message2{
+	clear: both;
+	float: left;
+	width: calc(100% - 25px);
+}
+.div-message .message2 p{
+	background: #435f7a;
+	color: #f5f5f5;
+	float: left;
+	max-width: 300px;
+	padding: 10px 15px;
+	border-radius: 20px;
+	margin: 10px 0px;
+	
+}
+.div-chat .div-username{
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	background: #f5f5f5;
+	padding-left: 30px;
+}
+.div-chat input {
+    font-family: "proxima-nova", "Source Sans Pro", sans-serif;
+    float: left;
+    border: none;
+    width: calc(100% - 50px);
+    padding: 11px 32px 10px 8px;
+    font-size: 0.8em;
+    color: #32465a;
+}
+
+.div-chat button {
+    float: right;
+    border: none;
+    width: 50px;
+    padding: 8px 0;
+    cursor: pointer;
+    background: #32465a;
+    color: #f5f5f5;
+}
+
+.container-message .div-user1{
+	float: left;
+	width: 30%;
+	height: 400px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background: #2c3e50;
+}
+.container-message .div-chat{
+	float: left;
+	width: 60%;
+}
+.container-message .div-user1 ul{
+	list-style: none;
+	margin-bottom: 0rem;
+	padding-left: 20px;
+}
+.container-message .div-user1 ul li{
+	color: white;
+	height: 65px;
+	line-height: 65px;
+    cursor: pointer;
+}
+.container-message .div-user1 ul li p{
+	margin-bottom: 0rem;
+}
